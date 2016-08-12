@@ -1,0 +1,45 @@
+body {
+background-color: #4495e4;
+padding: 30px;
+}
+
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75px;
+}
+
+.sample-form {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 35px auto;
+}
+h3 {
+  text-align: center;
+}
+
+.sample-form, label {
+  display: block;
+  padding: 15px;
+  }
+
+.sample-form input {
+  display: block;
+  width: 320px;
+  padding: 15px;
+  border: 2px solid #DDDDDD;
+  }
+
+ .new-password {
+   text-align: center;
+ }
+
+p {
+  text-align: center;
+  color: white;
+}
