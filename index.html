@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>AnalogSea Sign Up</title>
     <header>
-      <link rel="stylesheet" type="text/css" href="style.css" >
-      <img src="sea_logo.png " alt="logo" class="logo"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <img src="sea_logo.png " alt="logo" class="logo" />
     </header>
-  </head>
-  <body>
-    <form class='sample-form' action="/signup/" method='post'
+</head>
 
-      <fieldset name="signup-info">
-        <h3>Sign Up</h3>
-        <label for="email" required>Email</label>
-        <input placeholder='foo@bar.com' type="text" name='email' id='email' />
+<body>
+    <form class="sample-form" action="/signup/" method="post">
 
-        <label for="password" required>Password</label>
-        <input placeholder='1234passwOrd' type="text" name='password' id='password' />
-        <button type='submit'>Sign Up</button>
+        <fieldset name="signup-info">
+            <h3>Sign Up</h3>
+            <label for="email" required>Email</label>
+            <input placeholder="foo@bar.com" type="text" name="email" id="email" />
 
-    <a href="/forgot-password/new" class="new-password">Forgot Password</a>
+            <label for="password" required>Password</label>
+            <input placeholder="1234passwOrd" type="text" name="password" id="password" />
+
+            <label for="signup" class="sign-up">Sign up</label>
+
+        </fieldset>
+        <p><a href="/forgot-password/new" class="new-password">Forgot Password</a></p>
+
+
     </form>
-<p>Already have an account? <a href="/login">Log In</a></p>
-  </body>
+
+    <p>Already have an account? <a href="/login" class="log-in">Log In</a></p>
+
+</body>
+
 
 </html>
